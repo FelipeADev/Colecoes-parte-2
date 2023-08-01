@@ -33,6 +33,6 @@ public class Identidade implements Comparable<Identidade> {
 
     @Override
     public int compareTo(Identidade identidade) {
-        return this.nome.compareTo(identidade.getNome());
+        return this.nome.compareTo(identidade.getSexo());
     }
 }
